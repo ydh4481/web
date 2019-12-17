@@ -1,0 +1,210 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.wrap{
+  max-height: 100%;
+}
+.table {
+  text-align: center;
+  font-family: Dotum, sans-serif;
+}
+#login, #signup{
+  color: lightgrey;
+}
+
+#login:hover, #signup:hover{
+  color: white;
+}
+
+tr {
+  top: 50%;
+  margin-top: -100px;
+}
+
+header, .container, .table_title {
+  display: block;
+}
+
+.logo span {
+  margin: 2px;
+}
+
+.select_check_a {
+  font-size: 80%;
+}
+
+td img {
+  width: 70px;
+  height: 70px;
+}
+
+.select_check {
+  margin: 0;
+  padding: 0;
+  width: 0.5px;
+}
+
+label {
+  margin: 0;
+}
+
+header {
+  margin: 0 auto;
+  position: relative;
+  width: 980px;
+  height: 80px;
+  border-bottom: 2px solid #8a8a8a;
+  font-size: 200%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.product_name_part {
+  margin-right: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+* {
+  padding: 0;
+}
+
+.logo {
+  float: left;
+  padding: 20px 0 10px;
+}
+
+.container {
+  padding: 0;
+  font-weight: bold;
+}
+
+.btn_wrap, .seller_btn {
+  margin-left: 20px;
+}
+
+.btn_wrap {
+  margin-top: 10px;
+}
+
+.seller_btn span a {
+  padding: 2px;
+  margin: 0 2px;
+}
+
+.seller_btn {
+  text-align: right;
+}
+.seller_btn a{
+  font-size: 17px;
+
+}
+.buyer_btn {
+  text-align: right;
+}
+.buyer_btn a{
+  font-size: 17px;
+}
+
+tr {
+  font-size: 90%;
+}
+
+.search {
+  padding: 30px 0 30px 0;
+}
+
+.product_input {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.price_input {
+  width: 10%;
+}
+
+.final_price {
+  display: inline-block;
+  font: normal 15px/15px tahoma;
+  color: #111;
+  vertical-align: 0;
+  font-weight: bold;
+  clear: both;
+  border: 2px solid darkgray;
+  text-align: center;
+  width: 100%;
+  font-size: 100%;
+  padding: 20px;
+}
+.price_final{
+  color: red;
+}
+.Checkout{
+  text-align: center;
+padding: 20px;
+}
+.Checkout a{
+
+  font-weight: bold;
+  font-size: 40px;
+  border: 2px solid darkgray;
+}
+.final_price span i{
+  color: darkgray;
+}
+.kk{
+  font-weight: lighter;
+  font-size: 80%
+  color:gray;
+}
+.final_price span {
+  margin: 0 5px;
+}
+
+.contents {
+  position: relative;
+  width: 900px;
+  margin: 0 auto 70px;
+  padding: 70px 39px;
+  background: #fff;
+}
+
+.btn {
+  font-size: 12px;
+}
+
+.table_title {
+  padding:40px 0 40px 0;
+  clear: both;
+  border-bottom: 2px solid #343a40;
+}
+.contents_wrap{
+  padding-top: 60px;
+}
+footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+#sidebar_man{
+  padding-top: 100px;
+  float: left;
+  z-index: 1;
+  width: 100px;
+  height: 100%;
+}
+.sidenav {
+  background-color: #343a40;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  margin-left: -20px;
+  margin-top:50px
+}

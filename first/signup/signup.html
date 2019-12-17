@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Signup</title>
+  <!-- Bootstrap -->
+  <link href="bootstrap.css" rel="stylesheet">
+
+  <!-- Custom style -->
+  <link rel="stylesheet" href="signup.css" media="screen" title="no title" charset="utf-8">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap.min.js"></script>
+  <script src="signup.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="page-header">
+      <div class="col-md-6 col-md-offset-3" id="sign_head">
+        <h4><a href="../home.html"> <img src="loginimg.PNG" alt=""> </a></h4>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-offset-3" id="sign_main">
+      <form role="form">
+        <div class="form-group">
+          <label for="inputId">ID</label>
+          <input type="text" class="form-control" id="inputId" placeholder="Input your ID">
+        </div>
+        <div class="form-group">
+          <label for="InputName">Name</label>
+          <input type="text" class="form-control" id="inputName" placeholder="Input your Name">
+        </div>
+        <div class="form-group">
+          <label for="InputSid">Sid</label>
+          <input type="text" class="form-control" id="inputSid" placeholder="Input your Sid">
+        </div>
+        <div class="form-group">
+          <label for="inputPassword">Passord</label>
+          <input type="password" class="form-control" id="inputPassword" placeholder="Input your Password">
+        </div>
+        <div class="form-group">
+          <label for="inputPasswordCheck">Check Password</label>
+          <input type="password" class="form-control" id="inputPasswordCheck" placeholder="Input your Password again">
+        </div>
+        <div class="form-group">
+          <label for="inputMobile">Phone Number</label>
+          <input type="tel" class="form-control" id="inputMobile" placeholder="Input your Phone number">
+        </div>
+        <div class="form-group">
+          <label for="">Status</label>
+          <div class="custom-control custom-checkbox" id="signup_check_status" style="margin-bottom:20px;">
+            <span><input type="checkbox" class="custom-control-input" id="signup_manager" value="manager">
+              <label class="custom-control-label" for="signup_manager">Manager</label></span>
+            <span><input type="checkbox" class="custom-control-input" id="signup_buyer" value="buyer">
+              <label class="custom-control-label" for="signup_buyer">Buyer</label></span>
+            <span><input type="checkbox" class="custom-control-input" id="signup_seller" value="seller">
+              <label class="custom-control-label" for="signup_seller">Seller</label></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Agree</label>
+          <div class="custom-control custom-checkbox">
+            <input id="signup_agree" type="checkbox" autocomplete="off" checked class="custom-control-input">
+            <label class="custom-control-label" for="signup_agree">
+              <a href="#">Access turms</a> Agree.
+            </label>
+
+          </div>
+        </div>
+
+        <div class="form-group text-center">
+          <button type="submit" id="join-submit" class="btn btn-primary">
+            Sign Up<i class="fa fa-check spaceLeft"></i>
+          </button>
+          <a href="../login/index.html" class="btn btn-warning" role="button">Cancel</a>
+
+        </div>
+      </form>
+    </div>
+
+  </div>
+</body>
+
+</html>

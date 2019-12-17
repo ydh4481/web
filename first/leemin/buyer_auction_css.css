@@ -1,0 +1,154 @@
+.TOTAL{
+  display: grid;
+  grid-template-columns:80px 400px auto;
+  grid-template-rows:repeat(6,80px);
+}
+.wrap{
+  height: 100%;
+}
+.TOTAL > div{
+  /*border : 2px solid blue;*/
+  /*background-color: skyblue;*/
+  font-family: 'Sulphur Point', sans-serif;
+  line-height: normal;
+}
+
+.product_info{
+  padding: 5px;
+  vertical-align: middle;
+}
+.product_info p{
+  vertical-align: middle;
+}
+.side_img{
+  padding:5px;
+}
+
+.side_img:hover{
+  margin: 0px;
+  border: 1px solid darkgray;
+}
+
+#side_img_1{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+#side_img_2{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+#side_img_3{
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+#side_img_4{
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+#side_img_5{
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+#main_img{
+  padding: 10px;
+  grid-column: 2/3;
+  grid-row: 2/7;
+}
+#main_img img{
+  height: 380px;
+  width: 380px;
+}
+#product_name{ /* with star- rating */
+  grid-column:3/4;
+  grid-row: 2/3;
+  font-size: 30px;
+  line-height: normal;
+  border-bottom: 1px solid darkgray;
+}
+#product_price{
+  grid-column: 3/4;
+  grid-row: 3/4;
+  font-size: 40px;
+  line-height: 30px;
+  border-bottom: 1px solid darkgray;
+}
+#discount_rate{
+  display: inline;
+  font-size: 20px;
+  line-height: normal;
+}
+#original_price{
+  display: inline;
+  text-decoration: line-through;
+  font-size: 20px;
+  color: grey;
+  margin-top: 0px;
+  padding-top: 0px;
+  line-height: normal;
+}
+#discount_price{
+  margin-top: 0px;
+  font-size: 30px;
+  color: darkred;
+
+}
+#time_remaining{
+  display: inline;
+}
+
+#prduct_sellerinfo{
+  grid-column: 3/4;
+  grid-row: 4/5;
+  line-height: normal;
+  font-size: 20px;
+  border-bottom: 1px solid darkgray;
+}
+#product_tradingplace{
+  line-height: 20px;
+  grid-column: 3/4;
+  grid-row: 5/6;
+    border-bottom: 1px solid darkgray;
+}
+#product_useraction{
+  grid-column: 3/4;
+  grid-row: 6/7;
+  background-color: white;
+}
+#buy_button, #HOW_MUCH, #whishlist_button {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  background-color: white;
+  color: royalblue;
+  border: 2px solid royalblue;
+  border-radius: 8px;
+  height: 32px;
+
+}
+
+.useract_left{
+  display: inline-block;
+  float: left;
+  width: 48%;
+}
+.useract_right{
+  float: right;
+  width: 48%;
+  display: inline-block;
+
+}
+#HOW_MUCH{
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+#buy_button{
+  width: 100%;
+}
+#whishlist_button{
+  width: 100%;
+}
+#buy_button:hover, #HOW_MUCH:hover, #whishlist_button:hover{
+  color: midnightblue;
+  border: 2px solid midnightblue;
+}

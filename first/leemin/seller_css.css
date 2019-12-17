@@ -1,0 +1,179 @@
+
+.TOTAL{
+  display: grid;
+  grid-template-columns:80px 400px auto;
+  /*  여백 - 왼쪽img - 메인img - 제품정보 - 여백*/
+  grid-template-rows:repeat(6,80px) 80px;
+  /*  여백 - 쭈루룩 - 80px - 여백 */
+}
+.TOTAL_btn{
+  display: grid;
+  grid-template-columns: 50% auto;
+
+}
+.TOTAL > div{
+  /*border : 2px solid blue;*/
+  /*background-color: skyblue;*/
+  font-family: 'Sulphur Point', sans-serif;
+  line-height: normal;
+}
+
+.product_info{
+  padding : 15px;
+  width: 100%;
+  padding-top: 0;
+}
+input{
+  padding: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+input:hover, textarea:hover{
+  border: 1px solid grey;
+
+}
+.side_img{
+  padding: 4px;
+  border: 1px solid gray;
+}
+
+.side_img:hover, #main_img:hover{
+  margin: 0px;
+  border: 2px solid royalblue;
+}
+
+
+
+#side_img_1{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+#side_img_2{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+#side_img_3{
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+#side_img_4{
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+#side_img_5{
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+#main_img{
+  padding: 9px;
+  grid-column: 2/3;
+  grid-row: 2/7;
+  border: 1px solid grey;
+  border-left: 0;
+}
+#main_img > img {
+  width: 350px;
+  height: 350px;
+}
+
+
+
+#product_name{ /* with star- rating */
+  padding-top: 0;
+  grid-column:3/4;
+  grid-row: 2/3;
+  font-size: 30px;
+  line-height: normal;
+  width: 100%;
+}
+.product_name{
+  vertical-align: top;
+  height: 30px;
+  font-size: 20px;
+  width: 100%;
+}
+#product_price{
+  grid-column: 3/4;
+  grid-row: 3/4;
+  font-size: 40px;
+  height: 100%;
+  font-size: 20px;
+}
+#discount_rate, #discount_price, #original_price {
+  display: inline-block;
+  width: 48%;
+  height: 30px;
+}
+.discount_rate, .discount_price, .original_price{
+  height: 100%;
+  width: 100%;
+}
+.price_top{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 9px;
+}
+#discount_rate{
+  float: left;
+  font-size: 20px;
+  line-height: normal;
+}
+#original_price{
+  float: right;
+  text-decoration: line-through;
+  margin-top: 0px;
+  padding-top: 0px;
+  line-height: normal;
+}
+#discount_price{
+  margin-top: 0px;
+  line-height: normal;
+  color: darkred;
+}
+
+#prduct_sellerinfo{
+  grid-column: 3/4;
+  grid-row: 4/5;
+  line-height: normal;
+  font-size: 20px;
+}
+.sell_left{
+  display: inline-block;
+  float: left;
+  width: 48%;
+}
+.sell_right{
+  width: 48%;
+  display: inline-block;
+  float: right;
+}
+.seller_name, .seller_phone{
+  width: 100%;
+  height: 30px;
+}
+#product_tradingplace{
+  font-size: 20px;
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+.product_tradingplace{
+  width: 100%;
+  height: 100%;
+}
+#product_useraction{
+  margin-top:15px;
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+.check_wrap{
+
+}
+#registeration, #upload_img{
+  font-size: 20px;
+  margin:10px;
+  padding: 20px;
+}
+
+#seller_top{
+  padding: 40px 0 40px 0;
+}

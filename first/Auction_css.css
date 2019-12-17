@@ -1,0 +1,32 @@
+
+#Auction_contents{
+  margin:
+}
+
+#top_banner{
+  position: relative;
+  background-image: url("https://cdn.pixabay.com/photo/2017/09/11/15/34/animals-2739386_1280.jpg"
+    );
+  height: 200px;
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.top_banner_cover{
+  position: absolute;
+  max-width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.top_contents{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}

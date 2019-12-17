@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <link rel="stylesheet" href="seller_css.css">
+  <link href="https://fonts.googleapis.com/css?family=Sulphur+Point:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="text/javascript" src="../js/bootstrap.js"></script>
+  <link rel="stylesheet" href="../css/footercss.css">
+</head>
+
+<body>
+  <div class="wrap">
+
+  </div>
+  <div class="nav_wrap">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <span><a href="../home.html"><img src="../img/logo2.png" alt="" height="40px"></a></span>
+      <span><a class="navbar-brand mr-auto mr-lg-0" href="../home.html">GOOD-JOB TAMER</a></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li> <span style="opacity: 0.1"> blankblank </span> </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Auction_buy.html">AUCTION<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Flea_buy.html">FLEA MARKET</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="seller_html.html">PRODUCT REGISTER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../adv_page/advpage_html.html">ADVERTISEMENT</a>
+          </li>
+        </ul>
+
+
+        <div class="nav-item">
+          <a class="nav-link" id="login" href="../login/index.html">Login</a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link" id="signup" href="../signup/signup.html">Sign up</a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link" id="signup" href="../Wish.html">Wish list</a>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+  <div class="contents">
+    <div class="col-md-12" id="seller_top" style="border-bottom: 2px solid #343a40; ">
+      <h1>PRODUCT REGISTER</h1>
+      <hr>
+    </div>
+    <div class="TOTAL">
+      <div class="side_img" id="side_img_1"> <img src="no_photo.png" height="70px" width="70px" alt=""> </div>
+      <div class="side_img" id="side_img_2"> <img src="no_photo.png" height="70px" width="70px" alt=""> </div>
+      <div class="side_img" id="side_img_3"> <img src="no_photo.png" height="70px" width="70px" alt=""> </div>
+      <div class="side_img" id="side_img_4"> <img src="no_photo.png" height="70px" width="70px" alt=""> </div>
+      <div class="side_img" id="side_img_5"> <img src="no_photo.png" height="70px" width="70px" alt=""> </div>
+
+      <!--가장 큰 제품 사진-->
+      <div id="main_img"> <img src="no_photo.png" id="main_img_1" alt=""> </div>
+
+
+
+
+      <!--제품 이름-->
+      <div class="product_info" id="product_name">
+        <div style="font-size:20px;">Product Name</div>
+        <input type="text" class="product_name" placeholder="product_name">
+      </div>
+      <!--제품 가격-->
+      <div class="product_info" id="product_price">
+
+        <div class="price_top">
+          <div>Price</div>
+          <input type="text" class="discount_price" placeholder="Price">
+        </div>
+      </div>
+      <!--판매자정보-->
+      <div class="product_info" id="prduct_sellerinfo">
+        <div>Seller</div>
+        <div>
+          <span class="sell_left"><input type="text" class="seller_name" placeholder="Seller Name"></span>
+          <span class="sell_right"><input type="text" class="seller_phone" placeholder="Seller Phone"></span>
+        </div>
+      </div>
+      <!--거래 위치?-->
+      <div class="product_info" id="product_tradingplace">
+        <div>Place</div>
+        <textarea name="name" rows="5" cols="48" class="product_tradingplace" placeholder="Trading Place"></textarea>
+      </div>
+
+      <!--사용자 입력-->
+      <div class="product_info" id="product_useraction">
+        <div class="custom-control custom-checkbox check_wrap" style="margin-top:20px;">
+          <div><input type="checkbox" class="custom-control-input check_1" id="regist_flea">
+            <label class="custom-control-label" for="regist_flea">Flea Market</label></div>
+          <div><input type="checkbox" class="custom-control-input check_2" id="regist_auction">
+            <label class="custom-control-label" for="regist_auction">Auction</label></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="TOTAL_btn">
+      <button type="button" class="btn btn-secondary btn-lg" id="upload_img">Photo Upload</button>
+      <button type="button" class="btn btn-secondary btn-lg" id="registeration">Registeration</button>
+    </div>
+
+  </div>
+  <div id="footer">
+    <div module="Layout_footer">
+      <ul class="utilMenu">
+        <li class="home"><a href="/index.html" style="color:white">Home</a></li>
+        <li><a href="#" style="color:white">Company</a></li>
+        <li><a href="#" style="color:white">Use</a></li>
+        <li><a href="#" style="color:white">Privacy Policy</a></li>
+
+      </ul>
+    </div>
+
+    <hr>
+    <p class="address">
+      <br>
+      <span>company_name : SKKU Flea Market</span><br> <span> President name : someone </span> <br><span> Company_regno:123-123</span> <br />
+      <span>phone : 010-5889-2448</span> / <span> Fax: 123-132 </span><br />
+      <span>Cpo_name : <a href="mailto:{$cpo_email}">jackson</a></span><br />
+      <span>Cs center: 010-8872-7020</span> <br>
+      <span>Return and Exchange: Suwon janangu yuljeon-dong 414-3 <br>
+        <span>Contact <strong><a href="mailto:{$email}">mujek12@naver.com</a></strong>
+          <br>for more information.</span>
+    </p>
+    <p class="copyright">Copyright &copy; 2019 <strong>SKKU Flea Market</strong>. All rights reserved.</p>
+    <div class="pageTop"><a href="" title="화면 최상단으로 이동"> <img src="http://img.echosting.cafe24.com/skin/base_ko_KR/layout/btn_top2.gif"></a></div>
+
+  </div>
+  <script src="jscode.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
